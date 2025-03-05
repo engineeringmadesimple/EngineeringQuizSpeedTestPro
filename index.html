@@ -351,58 +351,158 @@
         // Question Banks for different engineering disciplines
         // Note: These arrays are intentionally left empty as per requirements
          const questionBanks = {
-    mechanical: [
-        {
-            question: "Which law states that the force applied to an object is equal to its mass multiplied by its acceleration?",
-            options: ["Newton's First Law", "Newton's Second Law", "Newton's Third Law", "Law of Conservation of Energy"],
-            answer: 1
-        },
-        {
-            question: "What is the primary function of a flywheel in an engine?",
-            options: ["Store energy", "Reduce friction", "Increase torque", "Regulate fuel flow"],
-            answer: 0
-        },
-        {
-            question: "What is the unit of pressure in the SI system?",
-            options: ["Pascal", "Newton", "Joule", "Watt"],
-            answer: 0
-        },
-        {
-            question: "Which thermodynamic cycle is used in a typical car engine?",
-            options: ["Brayton cycle", "Otto cycle", "Rankine cycle", "Diesel cycle"],
-            answer: 1
-        },
-        {
-            question: "What type of gear is used to change the direction of motion by 90 degrees?",
-            options: ["Spur gear", "Helical gear", "Bevel gear", "Rack and pinion"],
-            answer: 2
-        },
-        {
-            question: "What is the function of a governor in an engine?",
-            options: ["Control speed", "Reduce noise", "Increase efficiency", "Regulate fuel injection"],
-            answer: 0
-        },
-        {
-            question: "What is the purpose of a radiator in an engine?",
-            options: ["Generate heat", "Cool the engine", "Lubricate parts", "Reduce emissions"],
-            answer: 1
-        },
-        {
-            question: "What type of stress occurs when a material is stretched?",
-            options: ["Compressive", "Shear", "Tensile", "Torsional"],
-            answer: 2
-        },
-        {
-            question: "What is the function of a crankshaft?",
-            options: ["Convert linear motion to rotational motion", "Control fuel intake", "Support the pistons", "Reduce friction"],
-            answer: 0
-        },
-        {
-            question: "What is the name of the point where all mass of a body is considered to be concentrated?",
-            options: ["Centroid", "Center of mass", "Equilibrium point", "Pivot point"],
-            answer: 1
-        }
-    ],
+   mechanical: [
+                {
+                    question: "What law states that pressure and volume are inversely proportional at constant temperature?",
+                    options: [
+                        "Charles' Law",
+                        "Boyle's Law",
+                        "Gay-Lussac's Law",
+                        "Avogadro's Law"
+                    ],
+                    answer: 1
+                },
+                {
+                    question: "What is the mechanical advantage of a pulley system with 3 supporting pulleys?",
+                    options: [
+                        "2",
+                        "3",
+                        "4",
+                        "6"
+                    ],
+                    answer: 2
+                },
+                {
+                    question: "Which type of gear is used to connect non-parallel, non-intersecting shafts?",
+                    options: [
+                        "Spur gear",
+                        "Bevel gear",
+                        "Worm gear",
+                        "Helical gear"
+                    ],
+                    answer: 2
+                },
+                {
+                    question: "What is the purpose of a flywheel in an engine?",
+                    options: [
+                        "To reduce friction",
+                        "To store rotational energy",
+                        "To cool the engine",
+                        "To generate electricity"
+                    ],
+                    answer: 1
+                },
+                {
+                    question: "Which cycle is used in diesel engines?",
+                    options: [
+                        "Otto cycle",
+                        "Diesel cycle",
+                        "Rankine cycle",
+                        "Carnot cycle"
+                    ],
+                    answer: 1
+                },
+                {
+                    question: "What is the primary function of a heat exchanger?",
+                    options: [
+                        "To convert heat to mechanical energy",
+                        "To store thermal energy",
+                        "To transfer heat between fluids",
+                        "To increase fluid pressure"
+                    ],
+                    answer: 2
+                },
+                {
+                    question: "Which material property represents the ability to return to its original shape after deformation?",
+                    options: [
+                        "Ductility",
+                        "Elasticity",
+                        "Malleability",
+                        "Toughness"
+                    ],
+                    answer: 1
+                },
+                {
+                    question: "What is the purpose of a governor in an engine?",
+                    options: [
+                        "To control engine speed",
+                        "To increase fuel efficiency",
+                        "To reduce emissions",
+                        "To increase power output"
+                    ],
+                    answer: 0
+                },
+                {
+                    question: "Which law of thermodynamics states that energy cannot be created or destroyed?",
+                    options: [
+                        "Zeroth law",
+                        "First law",
+                        "Second law",
+                        "Third law"
+                    ],
+                    answer: 1
+                },
+                {
+                    question: "What is the primary purpose of a hydraulic accumulator?",
+                    options: [
+                        "To increase fluid pressure",
+                        "To store hydraulic energy",
+                        "To filter hydraulic fluid",
+                        "To cool hydraulic systems"
+                    ],
+                    answer: 1
+                },
+                {
+                    question: "Which type of bearing uses fluid pressure to separate the surfaces in relative motion?",
+                    options: [
+                        "Ball bearing",
+                        "Roller bearing",
+                        "Fluid bearing",
+                        "Needle bearing"
+                    ],
+                    answer: 2
+                },
+                {
+                    question: "What is the term for the ratio of output power to input power in a machine?",
+                    options: [
+                        "Mechanical advantage",
+                        "Efficiency",
+                        "Power factor",
+                        "Load ratio"
+                    ],
+                    answer: 1
+                },
+                {
+                    question: "Which welding process uses an electric arc between a consumable electrode and the workpiece?",
+                    options: [
+                        "TIG welding",
+                        "MIG welding",
+                        "Laser welding",
+                        "Ultrasonic welding"
+                    ],
+                    answer: 1
+                },
+                {
+                    question: "What is the purpose of a dynamometer?",
+                    options: [
+                        "To measure engine power",
+                        "To control engine speed",
+                        "To reduce vibration",
+                        "To increase fuel efficiency"
+                    ],
+                    answer: 0
+                },
+                {
+                    question: "Which mechanism converts rotary motion to linear motion?",
+                    options: [
+                        "Gear",
+                        "Cam",
+                        "Pulley",
+                        "Clutch"
+                    ],
+                    answer: 1
+                }
+            ],
     electrical: [
         {
             question: "What is the SI unit of electrical resistance?",
