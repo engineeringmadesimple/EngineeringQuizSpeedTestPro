@@ -772,10 +772,10 @@
     {
         question: "Which law states that mass is neither created nor destroyed in a chemical reaction?",
         options: [
-            "Boyle’s Law",
-            "Charles’ Law",
+            "Boyle's Law",
+            "Charles' Law",
             "Law of Conservation of Mass",
-            "Avogadro’s Law"
+            "Avogadro's Law"
         ],
         answer: 2
     },
@@ -842,10 +842,10 @@
     {
         question: "Which law relates the pressure and volume of an ideal gas?",
         options: [
-            "Boyle’s Law",
-            "Charles’ Law",
-            "Gay-Lussac’s Law",
-            "Dalton’s Law"
+            "Boyle's Law",
+            "Charles' Law",
+            "Gay-Lussac's Law",
+            "Dalton's Law"
         ],
         answer: 0
     },
@@ -1199,7 +1199,7 @@
             answerButtons.innerHTML = '';
             
             // Create answer buttons
-            question.answers.forEach((answer, index) => {
+            question.options.forEach((answer, index) => {
                 const button = document.createElement('button');
                 button.classList.add('answer-btn');
                 button.textContent = answer;
@@ -1238,7 +1238,7 @@
             });
             
             // Highlight the correct answer
-            const correctAnswerIndex = quizQuestions[currentQuestion].correctAnswer;
+            const correctAnswerIndex = quizQuestions[currentQuestion].answer;
             buttons[correctAnswerIndex].classList.add('correct');
             
             // Wait a moment before moving to the next question
@@ -1254,7 +1254,7 @@
             const selectedIndex = parseInt(e.target.dataset.index);
             
             // Get the correct answer index
-            const correctAnswerIndex = quizQuestions[currentQuestion].correctAnswer;
+            const correctAnswerIndex = quizQuestions[currentQuestion].answer;
             
             // Disable all answer buttons
             const buttons = document.querySelectorAll('.answer-btn');
